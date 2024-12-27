@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* Start Nav-bar */
+
+#navbarSupportedContent ul li a {
+  margin-left: 70px;
+}
+
+.ri-apple-fill {
+  margin-left: 50px;
+}
+
+/* End Nav-bar */
+
+
+/* Start Cards */
+
+.card-img-overlay p {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.card-text {
+  font-family: "PT Serif", serif;
+}
+
+.link {
+  list-style: none;
+}
+
+.link a {
+  text-decoration: none;
+}
+
+.link a:hover {
+  text-decoration: underline;
+}
+
+.cards-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  box-shadow: 10px 10px 20px grey;
+
+}
+
+
+/* End Cards */
+
+
+/* Start Accounts */
+
+.accounts h6 {
+  display: inline;
+}
+
+.accounts i {
+  margin-left: 20px;
+  font-size: 30px;
+}
+
+.accounts a {
+  text-decoration: none;
+}
+
+.ri-facebook-box-fill {
+  color: rgb(49, 49, 183);
+}
+
+.ri-linkedin-box-fill {
+  color: rgb(90, 90, 214);
+}
+
+/* End Accounts */
+
+
+/* Start Footer */
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 450px;
+}
+
+.title {
+  font-weight: 900;
+  color: gray;
+  margin-top: 50px;
+}
+
+.container-2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container-2 ul {
+  list-style: none;
+}
+
+.container-2 ul a {
+  text-decoration: none;
+  color: gray;
+}
+
+.container-2 ul a:hover {
+  text-decoration: underline;
+}
+
+.container-2 ul li {
+  margin-top: 20px;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.container pre {
+  display: inline;
+}
+
+.container p {
+  display: inline;
+}
+
+.container .rules-item {
+  text-decoration: none;
+  color: gray;
+  display: inline;
+
+}
+
+.container .rules-item:hover {
+  text-decoration: underline;
+}
+
+.rules {
+  display: inline;
+  margin-left: 50px;
+}
+
+/* End Footer */
